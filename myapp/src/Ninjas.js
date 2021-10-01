@@ -1,11 +1,7 @@
 import React from 'react';
 
-const Ninjas = (props) => {
-    
-        console.log(props);
-        //const {name,age,belt} = this.props;
-        const {ninjas} = props;
-
+const Ninjas = ({ninjas}) => {    
+        console.log(ninjas);
         const ninjaList = ninjas.map(
             ninja => {
                 return(

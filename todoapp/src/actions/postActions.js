@@ -1,5 +1,6 @@
 export const deletePost = (id) => {
     return {
-        type:'DELETE_POST'
+        type:'DELETE_POST',
+        id:id
     }
 }
